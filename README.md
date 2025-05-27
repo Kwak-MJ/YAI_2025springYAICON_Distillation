@@ -20,6 +20,14 @@ Student = ResNet 18
 4. train_distillation_{NAME}.py Distilled_resnet18_{NAME} (no pretrained)
    python train_distillation_{NAME}.py --alpha 0.7 --T 2 --epochs 50 --learning_rate 0.001 --batch_size 256 --scheduler_step 20
 
+### 모델 다운로드
+https://drive.google.com/file/d/1p4KQN7lNXGBpKlI3TNBo2xlAAiFIPLX9/view?usp=sharing
+
+checkpoint
+ L {MODEL}.pth
+ L {MODEL2}.pth
+ L ...
+
 ### 테스트 방법
 1. Teacher model
    python test.py --model_job teacher
