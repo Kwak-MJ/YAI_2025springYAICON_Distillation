@@ -26,7 +26,7 @@ https://drive.google.com/file/d/1p4KQN7lNXGBpKlI3TNBo2xlAAiFIPLX9/view?usp=shari
 checkpoint \
  L {MODEL}.pth \
  L {MODEL2}.pth \
- L ... \
+ L ... 
 
 ### 테스트 방법
 1. Teacher model
