@@ -6,8 +6,12 @@
     python train.py --model_job student --epochs 50 --learning_rate 0.001 --batch_size 256 --scheduler_step 20
 
 2. train_distillation.py
-  Distilled_{Student} (no pretrained) -> acc
+  Distilled_resnet18 (no pretrained)
     python train_distillation.py --alpha 0.7 --T 2 --epochs 50 --learning_rate 0.001 --batch_size 256 --scheduler_step 20
+
+3. train_distillation_{NAME}.py
+  Distilled_resnet18_{NAME} (no pretrained)
+    python train_distillation_{NAME}.py --alpha 0.7 --T 2 --epochs 50 --learning_rate 0.001 --batch_size 256 --scheduler_step 20
 
 3. test.py
   Teacher model
