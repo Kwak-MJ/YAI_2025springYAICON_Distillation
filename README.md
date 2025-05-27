@@ -23,10 +23,10 @@ Student = ResNet 18
 ### 모델 다운로드
 https://drive.google.com/file/d/1p4KQN7lNXGBpKlI3TNBo2xlAAiFIPLX9/view?usp=sharing
 
-checkpoint
- L {MODEL}.pth
- L {MODEL2}.pth
- L ...
+checkpoint \
+ L {MODEL}.pth \
+ L {MODEL2}.pth \
+ L ... \
 
 ### 테스트 방법
 1. Teacher model
