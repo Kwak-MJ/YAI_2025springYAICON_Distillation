@@ -7,6 +7,7 @@ Distillation의 loss 가중치인 alpha를 고정하지 않고 변화시키며 �
 주요 아이디어로는 초기 학습 단계에서 distillation loss의 가중을 크게하여 teacher model이 guide를 잘 생성하고 이후 ce loss를 통한 효율적인 학습이 가능할 것이라고 생각하였다.
 
 특히 logit based distllation보다 feature loss based distllation을 사용할 때 신경망 전반에 걸친 regularization 효과가 극대회되어 adaptive distillation의 효과가 더욱 좋을 것이라고 가정하고 실험을 진행하였다.
+
 ![image](https://github.com/user-attachments/assets/ff3ff2b1-1c56-473f-ad8e-be6ad107e811)
 
 실험 결과 실제로 feature loss + adaptive distillation을 사용한 Ada Feature Loss가 기존 논문의 방법보다 눈에 띄게 성능이 향상되며 teacher model과도 비교할만한 결과를 보여주는 것을 확인하였다.
